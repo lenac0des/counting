@@ -1,136 +1,25 @@
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    background: rgb(233, 203, 203);
-    color: #f2f2f2;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  /* #increase-btn {
-    background-color: #006241;
-  }
-  
-  #decrease-btn {
-    background-color: #002d62;
-  }
-  
-  #save-btn {
-    background-color: #c81d11; */
-    
-  /* } */
-  
-  h1 {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* .containter {
-        
-  } */
-  /* button increase */
-  .btn-i {
-    width: 200px;
-    height: 65px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border: 2.5px solid #0e172c;
-    border-radius: 15px;
-    transition: background-color 2.2s;
-    transition-duration: 3s;
-    transition: 1.5s;
-  }
-  
-  .btn-i:hover {
-    justify-content: center;
-    top: 30px;
-    background-color: #006241;
-  }
-  
-  .btn-i a {
-    font-size: 50px;
-    display: block;
-    text-decoration: none;
-    color: white;
-    transition: 1.5s;
-  }
-  
-  .btn-i a:hover {
-    letter-spacing: 5px;
-  }
-  
-  /* button decrease */
-  .btn-d {
-    width: 200px;
-    height: 65px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border: 2.5px solid #0e172c;
-    border-radius: 15px;
-    transition: background-color 2.2s;
-    transition-duration: 3s;
-    transition: 1.5s;
-  }
-  
-  .btn-d:hover {
-    justify-content: center;
-    top: 30px;
-    background-color: #002d62;
-  }
-  
-  .btn-d a {
-    font-size: 50px;
-    display: block;
-    text-decoration: none;
-    color: White;
-    transition: 1.5s;
-  }
-  
-  .btn-d a:hover {
-    letter-spacing: 5px;
-  }
-  
-  /* button save */
-  .btn-s {
-    width: 200px;
-    height: 65px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border: 2.5px solid #0e172c;
-    border-radius: 15px;
-    transition: background-color 2.2s;
-    transition-duration: 3s;
-    transition: 1.5s;
-  }
-  
-  .btn-s:hover {
-    justify-content: center;
-    top: 30px;
-    background-color: #c81d11;
-  }
-  
-  .btn-s a {
-    font-size: 50px;
-    display: block;
-    text-decoration: none;
-    color: White;
-    transition: 1.5s;
-  }
-  
-  .btn-s a:hover {
-    letter-spacing: 5px;
-  }
+
+  body{
+    background: #44A08D; 
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  
+background: linear-gradient(to right, #093637, #44A08D); 
+
+}
+
+.col-md-6{
+    border: 7px solid black;
+    margin-top: 150px !important;
+    padding: 20px;
+}
+
+button{
+    margin: 15px !important;
+    border: 2px solid black !important;
+}
+
+h1{
+    font-weight: bolder !important;
+    margin: 20px !important;
+}
+
+
